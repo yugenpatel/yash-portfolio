@@ -1,3 +1,19 @@
+/* ------------------ active navigation bar ------*/
+/*
+var header = document.getElementsByid('block');
+
+var btns = header.getElementsByClassName("nav");
+
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}*/
+
+
+/* -----------------slideshow---------------------*/
 var slideIndex = 0;
 
 /* 
@@ -49,15 +65,13 @@ function showSlide(n) {
   dots[slideIndex-1].className += " active";
 }
 
-function sentMail(){
-  n = document.getElementById('m1');
-  e = document.getElementById('m2');
-  m = document.getElementById('m3');
+/*-------------- Progress bar ------------*/
 
-  if(n=="" && e =="" && m==""){
-    alert('Fill the details first');
-  }
-  else {
-    alert('mail sent!');
-  }
+
+/* ------------- navigation tab ----------------------*/
+
+
+/* ------------- main send alert ---------*/
+function sentMail(){
+  alert('mail sent!');
 }
