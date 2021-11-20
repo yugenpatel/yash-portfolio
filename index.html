@@ -162,10 +162,12 @@
             <h4 style="text-align: center;">Message me</h4>
             <div class="connect">
                 <br>
-                <input id="m" type="text" placeholder="Name:"><br><br>
-                <input id="m" type="email" placeholder="E-mail:"><br><br>
-                <textarea placeholder="Message:"></textarea><br><br>
-                <button>Send</button>
+                <form method="get">
+                    <input name="name" id="m1" type="text" placeholder="Name:"><br><br>
+                    <input name="email" id="m2" type="email" placeholder="E-mail:"><br><br>
+                    <textarea name="msg" id="m3" placeholder="Message:"></textarea><br><br>
+                    <button type="submit" onclick="sentMail()">Send</button>
+                </form>
             </div>
             <p id="details">
                 <b id="b">Contact</b><br><br>

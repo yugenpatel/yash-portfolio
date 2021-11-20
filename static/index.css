@@ -425,6 +425,7 @@ span{
 
 .connect{
     background-color:burlywood;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 5%;
     padding-bottom: 15px;
@@ -432,25 +433,27 @@ span{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#m{
-    margin-left: 15%;
-    width: 65%;
-    height: 22px;
+#m1,#m2{
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 50%;
+    height: 28px;
     border-radius: 6px;
     border: 1px groove gray;
 }
 
 .connect textarea{
-    margin-left: 15%;
-    width: 65%;
-    height: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 50%;
+    height: 90px;
     border-radius: 6px;
     border: 1px groove rgb(219, 175, 116);
 }
 
 .connect button{
-    margin-left: 15%;
-    width: 20%;
+    margin-left: 20%;
+    width: 10%;
     height: 32px;
     background-color: #222;
     color: #fff;

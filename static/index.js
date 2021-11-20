@@ -48,3 +48,16 @@ function showSlide(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+function sentMail(){
+  n = document.getElementById('m1');
+  e = document.getElementById('m2');
+  m = document.getElementById('m3');
+
+  if(n=="" && e =="" && m==""){
+    alert('Fill the details first');
+  }
+  else {
+    alert('mail sent!');
+  }
+}
