@@ -9,7 +9,7 @@
 .container{
     background-color: #0093E9;
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-    opacity: 0.85;
+    opacity: 0.88;
     margin-top: 50px;
     margin-left: 12px;
     margin-right: 2px;
@@ -385,11 +385,13 @@ span{
 
 /* Contact */
 .cont h4{
+    margin-top: 10%;
     background-color: #222;
     border-radius: 12px;
     height: 20px;
     color: antiquewhite;
 }
+
 .cont{
     box-sizing: border-box;
 }
@@ -419,6 +421,41 @@ span{
 
 .column a img:hover{
     transform: translateY(-10px);
+}
+
+.connect{
+    background-color:burlywood;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-bottom: 15px;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#m{
+    margin-left: 15%;
+    width: 65%;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px groove gray;
+}
+
+.connect textarea{
+    margin-left: 15%;
+    width: 65%;
+    height: 70px;
+    border-radius: 6px;
+    border: 1px groove rgb(219, 175, 116);
+}
+
+.connect button{
+    margin-left: 15%;
+    width: 20%;
+    height: 32px;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 13px;
 }
 
 #details{
