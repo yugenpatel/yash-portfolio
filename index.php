@@ -180,7 +180,7 @@
             <h4 style="text-align: center;">Message me</h4>
             <div class="connect">
                 <br>
-                <form method="get">
+                <form method="get" action="mail.php">
                     <input name="name" id="m1" type="text" placeholder="Name:"><br><br>
                     <input name="email" id="m2" type="email" placeholder="E-mail:"><br><br>
                     <textarea name="msg" id="m3" placeholder="Message:"></textarea><br><br>
