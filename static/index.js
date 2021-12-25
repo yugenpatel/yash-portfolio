@@ -71,7 +71,25 @@ function showSlide(n) {
 /* ------------- navigation tab ----------------------*/
 
 
-/* ------------- main send alert ---------*/
-function sentMail(){
-  alert('mail sent!');
+/* ------------- main sender function ---------*/
+
+function sendMail(){
+  var senderName=document.getElementById('m1').value;
+  var sederEmail=document.getElementById('m2').value;
+  var msg=document.getElementById('m3').value;
+
+  Email.send({
+    Host:"smtp.gmail.com",
+    Username:"gdev4604@gmail.com",
+    Password:"DevBetaAc@5566;",
+    To:"yashlimbad2017@gmail.com",
+    From:"gdev4604@gmail.com",
+    Subject:"Ping from Portfolio",
+    Body:`Hello Yash\n, ${senderName} : ${sederEmail} has just ping you this message ...
+    
+    ${msg}`
+  })
+  .then(function (message){
+    alert("mail sent successfully")
+  });
 }
